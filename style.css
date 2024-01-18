@@ -1,0 +1,75 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #1f1f1f;
+    color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el título de la página */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #f8f8f8;
+}
+
+/* Estilos para el menú desplegable */
+#crypto-select {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f8f8f8;
+    text-align: center;
+}
+
+/* Estilos para el contenedor de la información de la criptomoneda */
+#crypto-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos para la imagen de la criptomoneda */
+#crypto-info img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Estilos para el nombre de la criptomoneda */
+#crypto-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f8f8f8;
+}
+
+/* Estilos para el símbolo de la criptomoneda */
+#crypto-info h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+/* Estilos para el contenedor de la gráfica */
+#crypto-chart {
+    margin-top: 50px;
+    height: 400px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}

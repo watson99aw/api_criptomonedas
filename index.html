@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Información de Criptomonedas</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Información de Criptomonedas</h1>
+    <center><label for="crypto-select">Selecciona una criptomoneda:</label></center><br>
+    <select id="crypto-select">
+        <option value="bitcoin">Bitcoin</option>
+        <option value="ethereum">Ethereum</option>
+        <option value="binancecoin">Binance Coin</option>
+        <option value="cardano">Cardano</option>
+        <option value="solana">Solana</option>
+        <option value="chainlink">Chainlink</option>
+        <option value="ripple">Ripple</option> 
+        <option value="litecoin">Litecoin</option> 
+        <option value="polkadot">Polkadot</option>
+        <option value="stellar">Stellar</option> 
+        <option value="tezos">Tezos</option> 
+        <option value="eos">EOS</option>
+    </select>
+    <div id="crypto-info"></div>
+    <div id="crypto-chart"></div>
+</body>
+
+</html>
+<script src="app.js"></script>
